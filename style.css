@@ -1,0 +1,112 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-image: url("background.jpg");
+  text-align:center;
+}
+
+.whole{
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.titled{
+  color: orange;
+  font-size: 55px;  
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.resultt{
+  color:red;
+  font-size: 65px;  
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align:center;
+  padding-top: 10px;
+}
+.titleh{
+  color:orange;
+  font-size: 55px;  
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+.dc{
+  height:400px;
+  width:100%;
+  
+}
+
+.hc{
+  height:420px;
+  width: 100%;
+}
+
+img{
+  max-height:100%;
+  max-width:100%;
+}
+
+button{
+  color: red;
+  font-size:50px;
+  border-radius:20px 20px;
+  height:100px;
+  margin-top:30px;
+  width: 220px;
+}
+
+.imgg{
+  height:240px;
+}
+
+.bbb{
+  height: 400px;
+}
+
+.music{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 300px;
+  height: 100px;
+}
+
+
+
+.repeat{
+  position: absolute;
+  color: red; 
+  border-radius:20px;
+  box-shadow: 5px 5px  rgb(153,153,0);
+  transition: ease-in 0.5s;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  height: 100px;
+  border-bottom-style: groove;
+  background-color: rgb(48,48,48);
+}
+.repeat:hover{
+  box-shadow: inset 300px 0 0 0 black;
+  background-color: yellow;
+}
+
+.funfact{
+  position: absolute;
+  top: 600px;
+  left: 350px;
+  width: 500px;
+  height: 200px;
+  color: orange;
+  font-size: 50px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+span{
+  color:red;
+}
